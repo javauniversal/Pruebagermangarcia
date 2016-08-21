@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Prueba GerGarGa</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_act_login">"Dashboard"</string>
+    <string name="url_base">http://directotesting.igapps.co/</string>
+    <string name="recordar_usuario_y_password">Recordar Usuario y Password</string>
+
+    <!-- QUERY DATA BASE -->
+    <string name="tabla_login">CREATE TABLE login (authToken TEXT, email TEXT, password TEXT)</string>
+    <string name="tabla_intro">CREATE TABLE intro (data_intro TEXT)</string>
+    <string name="tabla_prospectos">CREATE TABLE prospectos (id INT, name TEXT, surname TEXT, telephone TEXT, schProspectIdentification INT,
+        address TEXT, createdAt TEXT, updatedAt TEXT, statusCd INT, zoneCode TEXT, neighborhoodCode TEXT, cityCode TEXT, sectionCode TEXT,
+        roleId INT, appointableId INT, rejectedObservation TEXT, observation TEXT, disable INTEGER, visited INTEGER, callcenter INTEGER,
+        acceptSearch INTEGER, campaignCode INT, userId INTEGER )</string>
+    <string name="tabla_sincronizar">CREATE TABLE sincronizar (date TEXT)</string>
+    <!-- -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_act_edit_prospecto">Editar Prospecto</string>
+
+</resources>

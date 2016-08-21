@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_prospectos"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Prospectos" />
+    </group>
+
+    <item android:title="Aplicación">
+        <menu>
+            <item
+                android:id="@+id/nav_cerrar"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>
